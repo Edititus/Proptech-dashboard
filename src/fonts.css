@@ -1,0 +1,64 @@
+/* Euclid Circular B Font - Custom font face */
+/* Note: Place your Euclid Circular B font files in the /public/fonts directory */
+/* Font files should be named: EuclidCircularB-Light.woff2, EuclidCircularB-Regular.woff2, etc. */
+/* Fallback: Using Plus Jakarta Sans from Google Fonts (similar geometric sans-serif) */
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src:
+    url("/fonts/EuclidCircularB-Light.woff2") format("woff2"),
+    url("/fonts/EuclidCircularB-Light.woff") format("woff"),
+    local("Euclid Circular B Light"),
+    local("EuclidCircularB-Light");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src:
+    url("/fonts/EuclidCircularB-Regular.woff2") format("woff2"),
+    url("/fonts/EuclidCircularB-Regular.woff") format("woff"),
+    local("Euclid Circular B Regular"),
+    local("EuclidCircularB-Regular");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src:
+    url("/fonts/EuclidCircularB-Medium.woff2") format("woff2"),
+    url("/fonts/EuclidCircularB-Medium.woff") format("woff"),
+    local("Euclid Circular B Medium"),
+    local("EuclidCircularB-Medium");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src:
+    url("/fonts/EuclidCircularB-SemiBold.woff2") format("woff2"),
+    url("/fonts/EuclidCircularB-SemiBold.woff") format("woff"),
+    local("Euclid Circular B SemiBold"),
+    local("EuclidCircularB-SemiBold");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src:
+    url("/fonts/EuclidCircularB-Bold.woff2") format("woff2"),
+    url("/fonts/EuclidCircularB-Bold.woff") format("woff"),
+    local("Euclid Circular B Bold"),
+    local("EuclidCircularB-Bold");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
