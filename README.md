@@ -1,5 +1,7 @@
 # Proptech Dashboard
 
+🚀 **Live Demo**: [https://proptechdashboard-ediomotitus.netlify.app/](https://proptechdashboard-ediomotitus.netlify.app/)
+
 ## Stack
 
 - React 19 + TypeScript 5.9
