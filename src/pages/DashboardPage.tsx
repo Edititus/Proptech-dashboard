@@ -3,9 +3,9 @@ import { FeaturedPropertyCard } from "../components/molecules/FeaturedPropertyCa
 import { SalesOverview } from "../components/organisms/SalesOverview";
 import { UsersOverviewIcon } from "../components/atoms/icons/UsersOverviewIcon";
 import { ListingsOverviewIcon } from "../components/atoms/icons/ListingsOverviewIcon";
-import Urban from "../components/atoms/icons/Urban";
 import Urban3 from "../components/atoms/icons/Urban3";
 import Urban2 from "../components/atoms/icons/Urban2";
+import Urban from "../assets/urban.jpg";
 
 export function DashboardPage() {
   return (
@@ -58,7 +58,7 @@ export function DashboardPage() {
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
           <FeaturedPropertyCard
-            image={<Urban />}
+            image={Urban}
             badge='MOST CLICKED'
             title='Urban Prime Plaza Premiere'
           />
