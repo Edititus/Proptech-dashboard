@@ -26,13 +26,21 @@ export function FeaturedPropertyCard({
         </div>
       )}
 
-      {/* Overlay gradient */}
-      <div className='absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent' />
+      {/* Overlay gradient - stronger gradient for better text visibility */}
+      <div className='absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent' />
 
-      {/* Content */}
-      <div className='absolute bottom-0 left-0 right-0 p-6 text-white'>
-        <p className='text-sm font-medium uppercase mb-2 opacity-90'>{badge}</p>
-        <h3 className='text-xl font-semibold'>{title}</h3>
+      {/* Content - improved padding and positioning for mobile */}
+      <div className='absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-white'>
+        {badge && (
+          <p className='text-xs sm:text-sm font-medium uppercase mb-1.5 sm:mb-2 opacity-90 line-clamp-1'>
+            {badge}
+          </p>
+        )}
+        {title && (
+          <h3 className='text-lg sm:text-xl font-semibold line-clamp-2'>
+            {title}
+          </h3>
+        )}
       </div>
     </div>
   );

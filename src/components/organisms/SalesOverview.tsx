@@ -272,7 +272,7 @@ const ChangeIndicator = memo(
 ChangeIndicator.displayName = "ChangeIndicator";
 
 const MetricCard = memo(({ metric }: MetricCardProps) => (
-  <div className='bg-white rounded-xl border border-gray-200 p-3 lg:p-4 hover:shadow-md transition-shadow'>
+  <div className='bg-white rounded-xl border border-gray-200 p-3 lg:p-4 hover:shadow-md transition-shadow h-full flex flex-col justify-center'>
     <p
       className={`font-bold mb-1 text-xs md:text-base text-wrap ${metric.color}`}
     >

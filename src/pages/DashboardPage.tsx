@@ -57,9 +57,21 @@ export function DashboardPage() {
           Featured Properties
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-          <FeaturedPropertyCard image={<Urban />} />
-          <FeaturedPropertyCard image={<Urban3 />} />
-          <FeaturedPropertyCard image={<Urban2 />} />
+          <FeaturedPropertyCard
+            image={<Urban />}
+            badge='MOST CLICKED'
+            title='Urban Prime Plaza Premiere'
+          />
+          <FeaturedPropertyCard
+            image={<Urban3 />}
+            badge='MOST WATCHLISTED'
+            title='Urban Prime Plaza Premiere'
+          />
+          <FeaturedPropertyCard
+            image={<Urban2 />}
+            badge='HOTTEST LISTING'
+            title='Urban Prime Plaza Premiere'
+          />
         </div>
       </div>
     </div>
